@@ -421,10 +421,15 @@ body {
   display: table;
 }
 
-.slaygram-pic {
+.project-wrapper {
   height: 100vh;
   width: 50%;
-  /*margin-top: 5%;*/
+}
+
+.project-wrapper .slaygram-pic {
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
   margin-left: 0;
   float: left;
   background: url('../assets/slaygram/slaygram-icon.png');
@@ -442,9 +447,9 @@ body {
   background-size: 100% 100%;
 }
 
-.ugatuzi-pic {
+.project-wrapper .ugatuzi-pic {
   height: 100%;
-  width: 50%;
+  width: 100%;
   margin-left: 0;
   float: left;
   background: url('../assets/ugatuzi/ugatuzi-pic.png');
@@ -452,9 +457,9 @@ body {
   background-size: 100% 90%;
 }
 
-.hoxbox-pic {
+.project-wrapper .hoxbox-pic {
   height: 100%;
-  min-width: 50%;
+  width: 100%;
   margin-left: 0;
   float: left;
   background: url('../assets/hoxbox/hoxbox-logo2.png');
@@ -463,9 +468,9 @@ body {
   background-size: 100% 90%;
 }
 
-.funsquare-pic {
+.project-wrapper .funsquare-pic {
   height: 100%;
-  min-width: 50%;
+  width: 100%;
   margin-left: 0;
   float: left;
   background: url('../assets/funsquare/funsquare-logo.png');
@@ -478,9 +483,9 @@ body {
   height: 100vh;
   width: 50%;
   float: right;
-  margin-top: -5%;
-  /*margin-top: 5%;*/
-  /*margin-left: 50%;*/
+  margin-top: -55%;
+  /* margin-top: 5%; */
+  /* margin-left: 50%; */
 }
 
 .project-text {
@@ -503,8 +508,8 @@ body {
 }
 
 .project-text .name {
-  /*font-family: 'Montserrat', sans-serif;*/
-  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
   line-height: 33px;
   letter-spacing: 2px;
   font-weight: 800;
@@ -516,11 +521,11 @@ body {
 .project-text .passion {
   font-family: 'Flamenco', 'asap';
   font-style: normal;
-  font-size: 20px;
+  font-size: 17px;
   letter-spacing: 2px;
   line-height: 28px;
   letter-spacing: 2px;
-  font-weight: 700;
+  font-weight: 758;
   color: #888;
   margin-bottom: 7%;
 }
