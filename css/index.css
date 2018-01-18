@@ -1,3 +1,117 @@
+/* for laptops */
+
+@media (max-width: 991px) {
+  .about {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    display: table;
+  }
+  .about-intro {
+    height: 100%;
+    width: 50%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/about/about-me-icon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .about-me {
+    height: 100%;
+    width: 50%;
+    float: right;
+    /*margin-left: 50%;*/
+  }
+  .about-text {
+    margin-left: 5%;
+  }
+  .about-text .passion {
+    font-family: 'Flamenco', 'asap';
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 3%;
+  }
+  .about-text .quote {
+    font-family: 'Flamenco', 'asap';
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-weight: 550;
+    color: #888;
+    margin-left: 20%;
+    margin-top: -21%;
+  }
+  .python {
+    margin-top: -24%;
+    margin-left: 25%;
+  }
+  .javascript {
+    margin-left: 50%;
+    margin-top: -24%;
+  }
+  .flask {
+    margin-left: 72%;
+    margin-top: -23%;
+    margin-right: 5%;
+  }
+  .github {
+    height: inherit;
+    margin-left: 11%;
+    color: white;
+  }
+  .linkedin {
+    height: inherit;
+    margin-left: 30%;
+    margin-top: -10%;
+  }
+  .mail {
+    height: inherit;
+    margin-left: 50%;
+    margin-top: -10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .python {
+    margin-top: -24%;
+    margin-left: 27%;
+  }
+  .javascript {
+    margin-left: 53%;
+    margin-top: -23%;
+  }
+  .flask {
+    margin-left: 75%;
+    margin-top: -22.5%;
+    margin-right: 5%;
+  }
+  .github {
+    height: inherit;
+    margin-left: 11%;
+    color: white;
+  }
+  .linkedin {
+    height: inherit;
+    margin-left: 30%;
+    margin-top: -10%;
+  }
+  .mail {
+    height: inherit;
+    margin-left: 50%;
+    margin-top: -10%;
+  }
+}
+
+
+/* for smaller tablets */
+
 @media (max-width: 768px) {
   .about {
     height: 100vh;
@@ -286,6 +400,3 @@
     margin-top: -13%;
   }
 }
-
-
-/* for smaller tablets */
