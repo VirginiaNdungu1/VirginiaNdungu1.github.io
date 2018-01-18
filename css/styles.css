@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Asap");
 @import url("https://fonts.googleapis.com/css?family=Flamenco");
-body, html {
+body {
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -421,20 +421,64 @@ body, html {
   display: table;
 }
 
+.slaygram-pic {
+  height: 100vh;
+  width: 50%;
+  /*margin-top: 5%;*/
+  margin-left: 0;
+  float: left;
+  background: url('../assets/slaygram/slaygram-icon.png');
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
 .project-shot {
   height: 100%;
   width: 50%;
   margin-left: 0;
   float: left;
-  background: url('../assets/about/about-me-icon.jpg');
+  background: url('../assets/slaygram/slaygram-icon.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.ugatuzi-pic {
+  height: 100%;
+  width: 50%;
+  margin-left: 0;
+  float: left;
+  background: url('../assets/ugatuzi/ugatuzi-pic.png');
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
+.hoxbox-pic {
+  height: 100%;
+  min-width: 50%;
+  margin-left: 0;
+  float: left;
+  background: url('../assets/hoxbox/hoxbox-logo2.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
+.funsquare-pic {
+  height: 100%;
+  min-width: 50%;
+  margin-left: 0;
+  float: left;
+  background: url('../assets/funsquare/funsquare-logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
 }
 
 .about-project {
   height: 100vh;
   width: 50%;
   float: right;
+  margin-top: -5%;
   /*margin-top: 5%;*/
   /*margin-left: 50%;*/
 }
@@ -517,8 +561,9 @@ body, html {
 }
 
 .project-list {
-  width: 100%;
+  width: 50%;
   list-style: none;
+  margin-left: 0%;
   /*margin-top: -3px;*/
 }
 
