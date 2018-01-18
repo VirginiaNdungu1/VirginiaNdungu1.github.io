@@ -405,6 +405,70 @@
 /* for cellphones */
 
 @media (max-width: 500px) {
+  .about-intro {
+    background: none;
+  }
+  .about-me {
+    height: 100%;
+    width: 100%;
+    float: right;
+    /* margin-left: 50%; */
+  }
+  .about-text {
+    margin-top: -105%;
+    margin-left: 3.5%;
+    height: auto;
+    width: 100%;
+  }
+  .about-text .hello {
+    font-family: 'Flamenco', 'asap';
+    font-size: 30px;
+    /* font-weight: 600; */
+    color: #888;
+    margin-bottom: 8%;
+    /* margin-top: 10%; */
+    font-weight: 1000;
+    line-height: 20px;
+    font-size: 26px;
+    /* margin: 0 0 23px 0; */
+  }
+  .about-text .name {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 8%;
+    font-family: 'Flamenco', 'asap';
+  }
+  .about-text .passion {
+    font-family: 'Flamenco', 'asap';
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    /* letter-spacing: 2px; */
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 7%;
+  }
+  .fa-5x {
+    font-size: 5em;
+    color: #888;
+    margin-left: 3%;
+  }
+  .about-text .quote {
+    font-family: 'Flamenco', 'asap';
+    font-style: italic;
+    font-size: 16px;
+    /* letter-spacing: 2px; */
+    line-height: 35px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #888;
+    /* margin-left: 15%; */
+    margin-top: -13%;
+  }
   .projects {
     margin-top: 10%;
     float: left;
