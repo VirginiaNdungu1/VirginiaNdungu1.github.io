@@ -1,3 +1,162 @@
+/* dor desktops */
+
+@media (max-width: 1200px) {
+  .about-project {
+    height: 100vh;
+    width: 50%;
+    float: right;
+    margin-top: -70%;
+    /* margin-top: 5%; */
+    /* margin-left: 50%; */
+  }
+  .project-list .project-link {
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #888;
+    margin-left: 40%;
+    /*margin-bottom: 5%;*/
+    font-family: 'Flamenco', 'asap';
+  }
+  .python {
+    margin-top: -20%;
+    margin-left: 30%;
+  }
+  .javascript {
+    margin-left: 55%;
+    margin-top: -20%;
+  }
+  .flask {
+    margin-left: 77%;
+    margin-top: -19%;
+    margin-right: 5%;
+  }
+  .github {
+    height: inherit;
+    margin-left: 15%;
+    color: white;
+  }
+  .linkedin {
+    height: inherit;
+    margin-left: 32s%;
+    margin-top: -9%;
+  }
+  .mail {
+    height: inherit;
+    margin-left: 49%;
+    margin-top: -8%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-project {
+    height: 100vh;
+    width: 50%;
+    float: right;
+    margin-top: -90%;
+    /* margin-top: 5%; */
+    /* margin-left: -35%; */
+  }
+  .projects {
+    margin-top: -1%;
+    float: left;
+    width: 50vw;
+    height: 60vh;
+    min-height: 100%;
+    background-color: #2b2b2b;
+  }
+  .projects-2 {
+    margin-top: -1%;
+    float: right;
+    width: 50vw;
+    height: 60vh;
+    min-height: 100%;
+    background-color: #2b2b2b;
+  }
+  .projects-3 {
+    margin-top: -1%;
+    float: left;
+    width: 50vw;
+    height: 65vh;
+    min-height: 100%;
+    background-color: #2b2b2b;
+  }
+  .projects-4 {
+    margin-top: -1%;
+    float: right;
+    width: 50vw;
+    height: 65vh;
+    min-height: 100%;
+    background-color: #2b2b2b;
+  }
+  .project-text {
+    margin-top: 25%;
+    margin-left: 15%;
+    margin-left: 4%;
+  }
+  .project-text .name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    color: #888;
+    margin-bottom: 5%;
+    font-family: 'Flamenco', 'asap';
+  }
+  .project-text .passion {
+    font-family: 'Flamenco', 'asap';
+    font-style: normal;
+    font-size: 17.5px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    /* letter-spacing: 2px; */
+    font-weight: 1000;
+    color: #888;
+    margin-bottom: 7%;
+  }
+  .project-list .project-link {
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #888;
+    margin-left: 40%;
+    /*margin-bottom: 5%;*/
+    font-family: 'Flamenco', 'asap';
+  }
+  .python {
+    margin-top: -24%;
+    margin-left: 27%;
+  }
+  .javascript {
+    margin-left: 53%;
+    margin-top: -23%;
+  }
+  .flask {
+    margin-left: 75%;
+    margin-top: -22.5%;
+    margin-right: 5%;
+  }
+  .github {
+    height: inherit;
+    margin-left: 11%;
+    color: white;
+  }
+  .linkedin {
+    height: inherit;
+    margin-left: 30%;
+    margin-top: -10%;
+  }
+  .mail {
+    height: inherit;
+    margin-left: 50%;
+    margin-top: -10%;
+  }
+}
+
+
 /* for laptops */
 
 @media (max-width: 991px) {
@@ -59,37 +218,6 @@
   .flask {
     margin-left: 72%;
     margin-top: -23%;
-    margin-right: 5%;
-  }
-  .github {
-    height: inherit;
-    margin-left: 11%;
-    color: white;
-  }
-  .linkedin {
-    height: inherit;
-    margin-left: 30%;
-    margin-top: -10%;
-  }
-  .mail {
-    height: inherit;
-    margin-left: 50%;
-    margin-top: -10%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .python {
-    margin-top: -24%;
-    margin-left: 27%;
-  }
-  .javascript {
-    margin-left: 53%;
-    margin-top: -23%;
-  }
-  .flask {
-    margin-left: 75%;
-    margin-top: -22.5%;
     margin-right: 5%;
   }
   .github {
@@ -237,7 +365,7 @@
     min-height: 100%;
     background-color: #2b2b2b;
   }
-  .projects-3 {
+  /*.projects-3 {
     margin-top: -1%;
     float: left;
     width: 50vw;
@@ -245,9 +373,18 @@
     min-height: 100%;
     background-color: #2b2b2b;
     margin-bottom: 10%;
+  }*/
+  .projects-3 {
+    margin-top: -1%;
+    margin-left: 1%;
+    float: left;
+    width: 50vw;
+    height: 65vh;
+    min-height: 100%;
+    background-color: #2b2b2b;
   }
   .projects-4 {
-    margin-top: -1%;
+    margin-top: -58%;
     float: right;
     width: 50vw;
     height: 50vh;
@@ -260,24 +397,25 @@
     margin-left: 5%;
   }
   .project-text .name {
-    font-size: 20px;
-    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
     letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: 1000;
     color: #888;
     margin-bottom: 5%;
-    margin-left: -3.5%;
+    margin-left: -1%;
     font-family: 'Flamenco', 'asap';
   }
   .project-text .passion {
     font-family: 'Flamenco', 'asap';
     font-style: normal;
-    font-size: 15px;
+    font-size: 12px;
+    /* letter-spacing: 1px; */
+    line-height: 29px;
+    /* margin-left: 0.5%; */
     letter-spacing: 1px;
-    line-height: 23px;
-    margin-left: -3.5%;
-    /* letter-spacing: 2px; */
-    font-weight: 700;
+    font-weight: 1000;
     color: #888;
   }
   .project-list {
@@ -404,7 +542,7 @@
 
 /* for cellphones */
 
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   .about-intro {
     background: none;
   }
@@ -495,15 +633,50 @@
     min-height: 100%;
     background-color: #2b2b2b;
     margin-bottom: 10%;
+    /*margin-left: 10%;*/
   }
   .projects-4 {
-    margin-top: -38%;
+    margin-top: -78%;
     float: right;
     width: 50vw;
     height: 50vh;
     min-height: 100%;
     background-color: #2b2b2b;
     margin-bottom: 10%;
+  }
+  .project-wrapper {
+    height: 64vh;
+    width: 100%;
+  }
+  .project-wrapper .slaygram-pic {
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/slaygram/slaygram-icon.png);
+    background-repeat: no-repeat;
+    background-size: 95% 80%;
+  }
+  .about-project {
+    height: 50vh;
+    width: 100%;
+    margin-top: -30%;
+    /* float: right; */
+    /* margin-top: -135%; */
+    /* margin-top: 5%; */
+    /* margin-left: 50%; */
+  }
+  .project-text .hello {
+    font-family: 'Flamenco', 'asap';
+    font-weight: 1000;
+    color: #888;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 30px;
+    margin: 0 0 23px 0;
   }
   .python {
     margin-top: -47%;
@@ -529,5 +702,131 @@
     height: inherit;
     margin-left: 60%;
     margin-top: -20%;
+  }
+}
+
+@media (max-width: 360px) {
+  .about-me {
+    height: 100%;
+    /*width: 50%;*/
+    float: right;
+    /* margin-left: 50%; */
+    margin-top: -60%;
+  }
+  .project-intro {
+    margin-top: -21%;
+    height: auto;
+    min-height: 40%;
+    width: 100vw;
+    margin: 0;
+    margin-top: -10%;
+    /* background-color: #241f20; */
+    background-color: #2b2b2b;
+  }
+  .project-intro h1 {
+    color: white;
+    font-family: 'Flamenco', 'asap';
+    font-size: 90px;
+    font-weight: 1000;
+    padding-top: 10%;
+  }
+  .projects {
+    margin-top: 1%;
+    float: left;
+    width: 50vw;
+    margin-bottom: -15%;
+    height: 50vh;
+    min-height: 50%;
+    background-color: #2b2b2b;
+  }
+  .projects-2 {
+    margin-top: 1%;
+    float: right;
+    width: 50vw;
+    margin-bottom: -35%;
+    height: 50vh;
+    min-height: 50%;
+    background-color: #2b2b2b;
+  }
+  .projects-3 {
+    margin-top: -20%;
+    float: left;
+    width: 50vw;
+    height: 25vh;
+    min-height: 100%;
+    background-color: #2b2b2b;
+    margin-bottom: 10%;
+  }
+  .projects-4 {
+    margin-top: -55%;
+    float: right;
+    width: 50vw;
+    height: 25vh;
+    min-height: 100%;
+    background-color: #2b2b2b;
+    margin-bottom: 10%;
+  }
+  .project-details {
+    height: auto;
+    width: 100vw;
+    margin: auto;
+    display: table;
+  }
+  .project-wrapper {
+    /*height: 100vh;*/
+    min-height: 50%;
+    width: 100%;
+    /*float: none;*/
+  }
+  .project-wrapper .slaygram-pic {
+    height: 51%;
+    width: 51vh;
+    margin-top: 5%;
+    margin-left: 0;
+    /* float: left; */
+    background: url(../assets/slaygram/slaygram-icon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .django {
+    margin-top: -5%;
+    margin-left: -5%;
+  }
+  .python {
+    margin-top: -68%;
+    margin-left: 45%;
+    margin-right: -5%;
+  }
+  .javascript {
+    margin-left: -5%;
+    margin-top: 10%;
+  }
+  .flask {
+    margin-left: 45%;
+    margin-top: -65%;
+    margin-right: -12%;
+  }
+  .contact-section h1 {
+    color: white;
+    font-family: 'Flamenco', 'asap';
+    font-size: 65px;
+    font-weight: 1000;
+    padding-top: 5%;
+    margin: 0;
+  }
+  .github {
+    height: inherit;
+    margin-left: -25%;
+    color: white;
+  }
+  .linkedin {
+    height: inherit;
+    margin-left: 20%;
+    margin-top: -28%;
+  }
+  .mail {
+    height: inherit;
+    margin-left: 65%;
+    margin-top: -28%;
   }
 }
