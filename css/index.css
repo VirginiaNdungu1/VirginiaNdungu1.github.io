@@ -543,6 +543,15 @@
 /* for cellphones */
 
 @media (max-width: 501px) {
+  .about-project {
+    height: 50vh;
+    width: 100%;
+    margin-top: -30%;
+    float: right;
+    margin-top: -53%;
+    /* margin-top: 5%; */
+    margin-left: 50%;
+  }
   .about-intro {
     background: none;
   }
@@ -656,9 +665,9 @@
     float: left;
     background: url(../assets/slaygram/slaygram-icon.png);
     background-repeat: no-repeat;
-    background-size: 95% 80%;
+    background-size: 95% 57%;
   }
-  .about-project {
+  /*.about-project {
     height: 50vh;
     width: 100%;
     margin-top: -30%;
@@ -666,6 +675,39 @@
     margin-top: -135%;
     margin-top: 5%;
     margin-left: 50%;
+  }*/
+  .project-text .name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    color: #888;
+    margin-bottom: 5%;
+    margin-left: -1%;
+    margin-top: -5%;
+    font-family: 'Flamenco', 'asap';
+  }
+  .project-text .passion {
+    font-family: 'Flamenco', 'asap';
+    font-style: normal;
+    font-size: 12px;
+    /* letter-spacing: 1px; */
+    line-height: 29px;
+    /* margin-left: 0.5%; */
+    margin-top: -4%;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    color: #888;
+  }
+  .project-info {
+    height: auto;
+    min-height: 80%;
+    width: 70vw;
+    box-sizing: border-box;
+    /* background-color: #262626; */
+    margin-left: -6%;
+    margin-top: -9%;
   }
   .project-text .hello {
     font-family: 'Flamenco', 'asap';
@@ -677,6 +719,48 @@
     line-height: 46px;
     font-size: 30px;
     margin: 0 0 23px 0;
+  }
+  .project-wrapper .ugatuzi-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/ugatuzi/ugatuzi-pic.png);
+    background-repeat: no-repeat;
+    background-size: 95% 50%;
+  }
+  .project-wrapper .hoxbox-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/hoxbox/hoxbox-logo2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 95% 50%;
+    margin-top: -20%;
+  }
+  .project-wrapper .funsquare-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/funsquare/funsquare-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 95% 55%;
+    margin-top: -20%;
+  }
+  .project-list .project-link {
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #888;
+    margin-left: 206%;
+    margin-bottom: 5%;
+    margin-top: -125%;
+    font-family: 'Flamenco', 'asap';
   }
   .python {
     margin-top: -47%;
