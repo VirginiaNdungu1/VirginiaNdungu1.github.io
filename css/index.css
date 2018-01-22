@@ -542,7 +542,7 @@
 
 /* for cellphones */
 
-@media (max-width: 501px) {
+@media (max-width: 500px) {
   .about-project {
     height: 50vh;
     width: 100%;
@@ -786,6 +786,274 @@
     height: inherit;
     margin-left: 60%;
     margin-top: -20%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 500px) {
+  .about-intro {
+    background: none;
+  }
+  .about-me {
+    height: 100%;
+    width: 100%;
+    float: right;
+    margin-top: -45%;
+    /* margin-left: 50%; */
+  }
+  .about-text {
+    margin-top: -105%;
+    margin-left: 3.5%;
+    height: auto;
+    width: 100%;
+  }
+  .about-text .hello {
+    font-family: 'Flamenco', 'asap';
+    font-size: 30px;
+    /* font-weight: 600; */
+    color: #888;
+    margin-bottom: 8%;
+    /* margin-top: 10%; */
+    font-weight: 1000;
+    line-height: 20px;
+    font-size: 26px;
+    /* margin: 0 0 23px 0; */
+  }
+  .about-text .name {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 8%;
+    font-family: 'Flamenco', 'asap';
+  }
+  .about-text .passion {
+    font-family: 'Flamenco', 'asap';
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    /* letter-spacing: 2px; */
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 7%;
+  }
+  .fa-5x {
+    font-size: 5em;
+    color: #888;
+    margin-left: 3%;
+  }
+  .about-text .quote {
+    font-family: 'Flamenco', 'asap';
+    font-style: italic;
+    font-size: 16px;
+    /* letter-spacing: 2px; */
+    line-height: 35px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #888;
+    /* margin-left: 15%; */
+    margin-top: -13%;
+  }
+  .about-project {
+    height: 50vh;
+    width: 100%;
+    margin-top: -30%;
+    float: right;
+    margin-top: -53%;
+    /* margin-top: 5%; */
+    margin-left: 50%;
+  }
+  .projects {
+    margin-top: 10%;
+    float: left;
+    width: 50vw;
+    margin-bottom: 5%;
+    height: 50%;
+    min-height: 100%;
+    background-color: #2b2b2b;
+  }
+  .projects-2 {
+    margin-top: 10%;
+    float: right;
+    width: 50vw;
+    margin-bottom: -35%;
+    /* height: 50%; */
+    min-height: 100%;
+    background-color: #2b2b2b;
+  }
+  .projects-3 {
+    margin-top: -9%;
+    float: left;
+    width: 50vw;
+    height: 50vh;
+    min-height: 100%;
+    background-color: #2b2b2b;
+    margin-bottom: 10%;
+    /*margin-left: 10%;*/
+  }
+  .projects-4 {
+    margin-top: -90%;
+    float: right;
+    width: 50vw;
+    height: 50vh;
+    min-height: 100%;
+    background-color: #2b2b2b;
+    margin-bottom: 10%;
+  }
+  .project-wrapper {
+    height: 64vh;
+    width: 100%;
+  }
+  .project-wrapper .slaygram-pic {
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/slaygram/slaygram-icon.png);
+    background-repeat: no-repeat;
+    background-size: 95% 57%;
+  }
+  /*.about-project {
+    height: 50vh;
+    width: 100%;
+    margin-top: -30%;
+    float: right;
+    margin-top: -135%;
+    margin-top: 5%;
+    margin-left: 50%;
+  }*/
+  .project-text .name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    color: #888;
+    margin-bottom: 5%;
+    margin-left: -1%;
+    margin-top: -8%;
+    font-family: 'Flamenco', 'asap';
+  }
+  .project-text .passion {
+    font-family: 'Flamenco', 'asap';
+    font-style: normal;
+    font-size: 12px;
+    /* letter-spacing: 1px; */
+    line-height: 29px;
+    /* margin-left: 0.5%; */
+    margin-top: -4%;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    color: #888;
+  }
+  .project-info {
+    height: auto;
+    min-height: 80%;
+    width: 70vw;
+    box-sizing: border-box;
+    /* background-color: #262626; */
+    margin-left: -6%;
+    margin-top: -9%;
+  }
+  .project-text .hello {
+    font-family: 'Flamenco', 'asap';
+    font-weight: 1000;
+    color: #888;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 30px;
+    margin: 0 0 23px 0;
+  }
+  .project-text {
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .project-wrapper .ugatuzi-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/ugatuzi/ugatuzi-pic.png);
+    background-repeat: no-repeat;
+    background-size: 95% 50%;
+  }
+  .project-wrapper .hoxbox-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/hoxbox/hoxbox-logo2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 95% 50%;
+    margin-top: -20%;
+  }
+  .project-wrapper .funsquare-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/funsquare/funsquare-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 95% 55%;
+    margin-top: -20%;
+  }
+  .project-list .project-link {
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #888;
+    margin-left: 206%;
+    margin-bottom: 5%;
+    margin-top: -125%;
+    font-family: 'Flamenco', 'asap';
+  }
+  .python {
+    margin-top: -56%;
+    margin-left: 48%;
+    margin-right: 2%;
+  }
+  .flask {
+    margin-left: 50%;
+    margin-top: -55%;
+    margin-right: -3%;
+  }
+  .contact-section {
+    height: auto;
+    min-height: 45%;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2b2b2b;
+  }
+  .contact-section h1 {
+    color: white;
+    font-family: 'Flamenco', 'asap';
+    font-size: 82px;
+    font-weight: 1000;
+    padding-top: 5%;
+    margin: 0;
+  }
+  .github {
+    height: inherit;
+    margin-left: -13%;
+    color: white;
+  }
+  .linkedin {
+    height: inherit;
+    margin-left: 23%;
+    margin-top: -25%;
+  }
+  .mail {
+    height: inherit;
+    margin-left: 62%;
+    margin-top: -22%;
   }
 }
 
