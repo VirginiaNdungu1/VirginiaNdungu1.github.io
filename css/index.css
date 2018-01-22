@@ -705,7 +705,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .about-me {
     height: 100%;
     /*width: 50%;*/
@@ -736,8 +736,50 @@
     margin-top: -30%;
     float: right;
     margin-top: -142%;
-    margin-top: -43%;
+    margin-top: -66%;
     margin-left: 50%;
+  }
+  .project-wrapper .ugatuzi-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/ugatuzi/ugatuzi-pic.png);
+    background-repeat: no-repeat;
+    background-size: 93% 55%;
+  }
+  .project-wrapper .hoxbox-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/hoxbox/hoxbox-logo2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90% 47%;
+    margin-top: -28%;
+  }
+  .project-wrapper .funsquare-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    background: url(../assets/funsquare/funsquare-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90% 57%;
+    margin-top: -26%;
+  }
+  .project-list .project-link {
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #888;
+    margin-left: 206%;
+    margin-bottom: 5%;
+    margin-top: -188%;
+    font-family: 'Flamenco', 'asap';
   }
   .projects {
     margin-top: 1%;
