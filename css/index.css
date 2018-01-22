@@ -759,6 +759,18 @@
     background-size: 90% 47%;
     margin-top: -28%;
   }
+  .project-text .name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    color: #888;
+    margin-bottom: 2%;
+    margin-top: -5%;
+    margin-left: -1%;
+    font-family: 'Flamenco', 'asap';
+  }
   .project-wrapper .funsquare-pic {
     height: 100%;
     width: 100%;
