@@ -45,6 +45,7 @@ body {
 .content {
   max-width: 500px;
   margin: 0 auto;
+  /*margin-bottom: 10%;*/
   text-align: center;
 }
 
@@ -692,4 +693,41 @@ body {
   height: inherit;
   margin-left: 45%;
   margin-top: -7%;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#icon {
+  text-align: center;
+  /*margin-top: 10%;*/
+  /*padding-bottom: 10%;*/
+  /*margin-top: 50%;*/
+}
+
+.fa-chevron-down:before {
+  content: "\f078";
+  color: #fff;
+  font-size: 39px;
+}
+
+.bounce {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s infinite linear;
+  colr: 000;
+}
+
+.fa-chevron-down {
+  color: #fff;
+  color: white;
+  font-size: 30px;
+  /*margin: 20px;*/
 }
