@@ -15,7 +15,7 @@ body {
   height: 100vh;
   width: 100vw;
   margin: auto;
-  background: url(../assets/backgrounds/bg.jpg);
+  background: url(../assets/backgrounds/bg-compressor.jpg);
   background-repeat: no-repeat;
   display: table;
   top: 0;
@@ -27,7 +27,7 @@ body {
   position: absolute;
   width: 100vw;
   margin: 0;
-  background: url(../assets/backgrounds/triangles.png);
+  background: url(../assets/backgrounds/triangles-compressor.png);
   background-repeat: no-repeat;
   display: table;
   top: 0;
@@ -56,7 +56,7 @@ body {
   top: 50%;
   margin-left: -168px;
   margin-top: -168px;
-  background: url(../assets/backgrounds/dark-red1.png);
+  background: url(../assets/backgrounds/dark-red1-compressor.png);
   background-size: cover;
   position: absolute;
 }
@@ -102,7 +102,7 @@ body {
   width: 50%;
   margin-left: 0;
   float: left;
-  background: url('../assets/about/about-me-icon.jpg');
+  background: url('../assets/about/about-me-icon-compressor.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -455,7 +455,7 @@ body {
   float: left;
   background: url('../assets/ugatuzi/ugatuzi-pic.png');
   background-repeat: no-repeat;
-  background-size: 100% 90%;
+  background-size: 100% 95%;
 }
 
 .project-wrapper .hoxbox-pic {
